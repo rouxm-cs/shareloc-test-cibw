@@ -31,3 +31,7 @@ module = [
     'setuptools',
 ]
 ignore_missing_imports = true
+
+[tool.cibuildwheel]
+skip = "pp*"
+

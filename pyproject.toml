@@ -33,5 +33,4 @@ module = [
 ignore_missing_imports = true
 
 [tool.cibuildwheel]
-skip = "pp*"
-
+skip = ["pp*", "*macosx_x86_64"]
